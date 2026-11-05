@@ -21,4 +21,6 @@ Iz
 Izprim=Iz./K
 Scu =[ 4 , 2.5 , 6 , 16 ]
 section_alum= [ 6 , 4 , 10 , 25 ]
+DUcu = ((Rcu * L)/Scu)* Iz
+DUal = ((Ral * L)/ section_alum)* Iz
 
