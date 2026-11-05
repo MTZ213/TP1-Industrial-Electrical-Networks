@@ -10,16 +10,15 @@ Rcu = 0.0181;
 Ral = 0.0308;
 
 for n=1:4
-    if Ib(n)>20
+    if Ib(n)>20;
         Iz(n)=Ib(n);
     else
-        Ib(n)<20
+        Ib(n)<20;
         Iz(n)=1.21*Ib(n);
     end
 end
 Iz
 Izprim=Iz./K
-de
 Scu =[ 4 , 2.5 , 6 , 16 ]
 section_alum= [ 6 , 4 , 10 , 25 ]
 
